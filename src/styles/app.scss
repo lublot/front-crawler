@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+Pro:wght@600&family=Lato&display=swap");
+@import "bulma/bulma.sass";
+
+html,
+body,
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif !important;
+}
+
+.title {
+  margin-bottom: 0px !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+strong {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.box {
+  border-radius: 50px;
+}
+
+.align-start {
+  align-items: flex-start;
+  display: flex;
+}
+
+.align-end {
+  align-items: flex-end;
+  display: flex;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
